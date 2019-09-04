@@ -1,0 +1,40 @@
+CREATE DATABASE andreferragens;
+
+
+
+
+CREATE TABLE usuarios(
+	
+	
+id int AUTO_INCREMENT PRIMARY KEY,
+	
+nome VarChar(255) not null,
+	
+email VarChar(255) not null,
+	
+celular Char(11), 
+	
+senha VarChar(255)
+
+
+
+
+);
+
+
+CREATE TABLE produtos(
+
+	id_Prod int null AUTO_INCREMENT PRIMARY KEY,
+    nome_prod VarChar(255) not null,
+    Valor double not null,
+    ProdDesc VarChar(255)
+ 	
+
+
+)
+
+
+
+
+
+     
