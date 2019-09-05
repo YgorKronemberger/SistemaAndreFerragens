@@ -14,12 +14,12 @@
 
         mysqli_query($con, $query);
             
-            echo "<meta http-equiv='refresh' content='0.2; http://localhost/SistemaAndre/Administrador.php'>";
+            echo "<meta http-equiv='refresh' content='0.2; http://localhost/SistemaAndreFerragens/administrador.php'>";
         }else{
             
             
         echo "<script>alert('teste')</script>";
-        echo "<meta http-equiv='refresh' content='0.2; http://localhost/SistemaAndre/Administrador.php'>";
+        echo "<meta http-equiv='refresh' content='0.2; http://localhost/SistemaAndreFerragens/administrador.php'>";
             
             
         }

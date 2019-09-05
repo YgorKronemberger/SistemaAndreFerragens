@@ -37,6 +37,15 @@
           
             
         }
+        
+        
+        
+        
+        
+        
+        
+        
+        
 
         #Log{
             margin-bottom:0.5%;
@@ -83,10 +92,13 @@
 
                  
             
-        <div id="GeralNav">
-
-
-            <nav id="Navegacao">
+        <div id="GeralNav" class="navbar-expand-sm">
+            <button class="navbar-toggler" data-toggle="collapse" data-target="#navegacao">
+                <img src="img/menu.svg" alt="">
+                
+            </button>
+        
+            <nav class="collapse" id="Navegacao">
 
                 <div id="NavBord">
 
